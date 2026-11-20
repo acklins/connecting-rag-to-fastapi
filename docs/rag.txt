@@ -1,0 +1,9 @@
+Retrieval-Augmented Generation, or RAG, combines information retrieval with a large language model. RAG allows a language model to answer questions using information retrieved from an external document collection.
+
+A basic RAG pipeline has three stages: ingestion, retrieval, and generation. During ingestion, documents are loaded, divided into chunks, converted into embeddings, and stored in a vector database.
+
+During retrieval, the application converts a user's question into an embedding and searches the vector database for relevant document chunks. The most relevant chunks are returned as context.
+
+During generation, the application combines the retrieved context with the user's question and system instructions. The resulting prompt is sent to a language model, which generates an answer.
+
+A well-designed RAG prompt instructs the language model to answer using only the supplied context, cite document sources, and acknowledge when information is missing. However, language models can still hallucinate or refuse answerable questions, so their responses must be evaluated.

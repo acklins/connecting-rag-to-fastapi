@@ -1,0 +1,10 @@
+Python is a high-level programming language known for its readability and versatility. It supports procedural, object-oriented, and functional programming styles. Python is widely used for web development, data analysis, automation, and artificial intelligence.
+
+A Python function is a reusable block of code defined using the def keyword. Functions can accept parameters, return values, and help organize programs into smaller components.
+
+Python decorators allow developers to extend the behavior of existing functions without directly modifying their source code. Decorators are commonly used for logging, authentication, caching, and measuring execution time.
+
+A decorator typically accepts a function as an argument and returns a wrapper function. The @decorator syntax applies the decorator to another function.
+
+Python generators produce values one at a time using the yield keyword. Unlike functions that return an entire collection, generators can reduce memory usage when processing large sequences.
+

@@ -1,0 +1,9 @@
+Streamlit is a Python framework for building interactive web applications without writing traditional frontend HTML, CSS, or JavaScript.
+
+Streamlit provides interface components such as buttons, text inputs, sliders, select boxes, and data tables. These components allow users to interact with Python applications through a browser.
+
+Streamlit applications can display Pandas DataFrames, charts, images, and other visualizations. This makes Streamlit useful for dashboards, data analysis, and machine learning demonstrations.
+
+Streamlit uses session state to preserve information across application reruns. Developers can store user selections, authentication status, and other temporary application data in st.session_state.
+
+Streamlit provides caching features such as st.cache_data and st.cache_resource. These help avoid repeating expensive calculations or repeatedly loading resources such as database connections and machine learning models.

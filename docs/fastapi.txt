@@ -1,0 +1,9 @@
+FastAPI is a modern Python web framework used to build REST APIs. It uses Python type hints to validate requests and automatically generate API documentation.
+
+FastAPI supports HTTP methods such as GET, POST, PUT, PATCH, and DELETE. GET retrieves resources, POST creates resources, PUT replaces resources, PATCH partially updates resources, and DELETE removes resources.
+
+FastAPI uses Pydantic models to validate incoming JSON request data. If a request contains invalid data, FastAPI typically returns HTTP status code 422 with details about the validation error.
+
+FastAPI supports dependency injection through the Depends function. Dependencies can manage database sessions, authentication, and reusable application logic.
+
+FastAPI automatically generates interactive API documentation using Swagger UI. Developers can access this documentation at the /docs endpoint to inspect and test API routes.

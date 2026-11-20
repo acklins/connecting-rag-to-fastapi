@@ -1,0 +1,9 @@
+ChromaDB is an open-source vector database designed to store, organize, and retrieve embeddings. It is commonly used in semantic search and Retrieval-Augmented Generation applications.
+
+An embedding is a numerical representation of text or other data. Embeddings allow applications to compare semantic meaning rather than relying only on exact keyword matches.
+
+ChromaDB organizes documents and embeddings into collections. A collection can contain document text, unique IDs, embeddings, and metadata such as source filenames.
+
+ChromaDB supports similarity searches that retrieve document chunks related to a user's query. Depending on the collection configuration, ChromaDB can use distance metrics such as cosine distance.
+
+ChromaDB provides persistent storage through PersistentClient. A persistent collection can retain stored document chunks between application runs without requiring the documents to be ingested again.

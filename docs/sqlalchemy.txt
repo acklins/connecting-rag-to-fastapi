@@ -1,0 +1,9 @@
+SQLAlchemy is a Python library used to interact with relational databases. It provides SQL tools and an Object-Relational Mapper, commonly called an ORM.
+
+An ORM maps Python classes to database tables. Each object represents a database record, allowing developers to interact with data using Python objects instead of writing every SQL query manually.
+
+SQLAlchemy sessions manage database operations such as adding, updating, deleting, and querying records. Developers use commit to save transactions and rollback to undo failed transactions.
+
+Database relationships connect tables through primary keys and foreign keys. For example, a user table can have a one-to-many relationship with a tasks table.
+
+SQLAlchemy supports filtering, sorting, and joining database records. Developers can combine SQLAlchemy with FastAPI to build applications that store and retrieve persistent data.
